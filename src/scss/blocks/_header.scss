@@ -1,0 +1,54 @@
+.header {
+	background-color: var(--page-bg);
+	height: 750px;
+
+	padding-top: 30px;
+
+	background-image: url('./../../img/hero-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media (min-resolution: 192dpi) {
+	.header {
+		background-image: url('./../../img/hero-bg@2x.jpg');
+	}
+}
+
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.row__list {
+	display: flex;
+	gap: 50px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 16px;
+
+	transition: all 0.2s ease-in;
+	
+
+	
+}
+.row__list a:hover {
+	opacity: 0.8;
+
+}
+
+.header-img {
+	padding-top: 125px;
+	text-align: right;
+}
+

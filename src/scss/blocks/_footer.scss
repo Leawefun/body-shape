@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--page-bg);
+  padding: 70px 0;
+
+  // @media (max-width: 1200px) {
+  // 	font-size: 26px;
+  // }
+}
+
+.footer__socials {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 50px;
+  align-items: center;
+}
+.footer__contacts {
+  display: flex;
+  gap: 50px;
+  max-width: 585px;
+
+  font-size: 14px;
+
+  font-weight: 300;
+  line-height: 28px;
+}
+
+
